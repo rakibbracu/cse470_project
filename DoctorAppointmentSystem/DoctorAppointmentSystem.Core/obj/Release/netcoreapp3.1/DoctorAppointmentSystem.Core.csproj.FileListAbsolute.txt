@@ -1,0 +1,15 @@
+D:\DoctorAppointmentSystem\DoctorAppointmentSystem\DoctorAppointmentSystem.Core\bin\Release\netcoreapp3.1\DoctorAppointmentSystem.Core.deps.json
+D:\DoctorAppointmentSystem\DoctorAppointmentSystem\DoctorAppointmentSystem.Core\bin\Release\netcoreapp3.1\DoctorAppointmentSystem.Core.runtimeconfig.json
+D:\DoctorAppointmentSystem\DoctorAppointmentSystem\DoctorAppointmentSystem.Core\bin\Release\netcoreapp3.1\DoctorAppointmentSystem.Core.runtimeconfig.dev.json
+D:\DoctorAppointmentSystem\DoctorAppointmentSystem\DoctorAppointmentSystem.Core\bin\Release\netcoreapp3.1\DoctorAppointmentSystem.Core.dll
+D:\DoctorAppointmentSystem\DoctorAppointmentSystem\DoctorAppointmentSystem.Core\bin\Release\netcoreapp3.1\DoctorAppointmentSystem.Core.pdb
+D:\DoctorAppointmentSystem\DoctorAppointmentSystem\DoctorAppointmentSystem.Core\bin\Release\netcoreapp3.1\DoctorAppointmentSystem.Data.dll
+D:\DoctorAppointmentSystem\DoctorAppointmentSystem\DoctorAppointmentSystem.Core\bin\Release\netcoreapp3.1\DoctorAppointmentSystem.Data.pdb
+D:\DoctorAppointmentSystem\DoctorAppointmentSystem\DoctorAppointmentSystem.Core\obj\Release\netcoreapp3.1\DoctorAppointmentSystem.Core.csprojAssemblyReference.cache
+D:\DoctorAppointmentSystem\DoctorAppointmentSystem\DoctorAppointmentSystem.Core\obj\Release\netcoreapp3.1\DoctorAppointmentSystem.Core.AssemblyInfoInputs.cache
+D:\DoctorAppointmentSystem\DoctorAppointmentSystem\DoctorAppointmentSystem.Core\obj\Release\netcoreapp3.1\DoctorAppointmentSystem.Core.AssemblyInfo.cs
+D:\DoctorAppointmentSystem\DoctorAppointmentSystem\DoctorAppointmentSystem.Core\obj\Release\netcoreapp3.1\DoctorAppointmentSystem.Core.csproj.CoreCompileInputs.cache
+D:\DoctorAppointmentSystem\DoctorAppointmentSystem\DoctorAppointmentSystem.Core\obj\Release\netcoreapp3.1\DoctorAppointmentSystem.Core.csproj.CopyComplete
+D:\DoctorAppointmentSystem\DoctorAppointmentSystem\DoctorAppointmentSystem.Core\obj\Release\netcoreapp3.1\DoctorAppointmentSystem.Core.dll
+D:\DoctorAppointmentSystem\DoctorAppointmentSystem\DoctorAppointmentSystem.Core\obj\Release\netcoreapp3.1\DoctorAppointmentSystem.Core.pdb
+D:\DoctorAppointmentSystem\DoctorAppointmentSystem\DoctorAppointmentSystem.Core\obj\Release\netcoreapp3.1\DoctorAppointmentSystem.Core.genruntimeconfig.cache

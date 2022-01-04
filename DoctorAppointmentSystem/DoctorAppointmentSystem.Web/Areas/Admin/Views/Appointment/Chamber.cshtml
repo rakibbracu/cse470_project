@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "WebRTC with ASP.NET Core";
+}
+
+@section styles{
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css" type="text/css" />
+    <link rel="stylesheet" href="/admin/css/webrtc.css" type="text/css" />
+}
+
+<div class="roomCreate">
+    <label for="name">Room Name:</label>
+    <input type="text" id="roomNameTxt" />
+    <button id="createRoomBtn">Create</button>
+</div>
+
+<div>
+    <table id="roomTable" class="display" style="width:100%;">
+        <thead>
+            <tr>
+                <th>Room ID</th>
+                <th>Name</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+<div class="borderLine"></div>
+
+<div>
+    <div class="connectionStatus">
+        <p id="connectionStatusMessage">*You can create your own room or join the other room.</p>
+    </div>
+    <h5>Video chat</h5>
+    <div class="videoArea">
+        <video id="localVideo" autoplay playsinline></video>
+        <video id="remoteVideo" autoplay playsinline></video>
+    </div>
+    <button id="stop" class="btn btn-danger">Stop camera</button>
+    <h5>File sharing</h5>
+    <div id="fileShare">
+        <input type="file" id="fileInput">
+        <button id="sendFileBtn" class="sendFileBtn">Send</button>
+    </div>
+    <table id="fileTable" class="fileTable">
+        <thead>
+            <tr>
+                <th>Received Files</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+@section scripts{
+   <script>
+       document.getElementById("stop").addEventListener("click", function () {
+           console.log(window.location.href)
+           var data = { "url": window.location.href };
+
+           $.ajax({
+
+               url: "/admin/Appointment/EmailSending",
+
+               data: data,
+
+               type: "POST",
+
+               dataType: 'JSON',
+               success: function (result) {
+                   alert('xyz');
+                   toastr.success('Click Button');
+               },
+               error: function (passParams) {
+                   console.log("Error is " + passParams);
+               }
+           });     
+
+       });
+       
+   </script>
+    <script type="text/javascript" src="/admin/plugins/signalr/dist/browser/signalr.js"></script>
+    <script type="text/javascript" src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="/admin/js/webrtc.js"></script>
+}
+
